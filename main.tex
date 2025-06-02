@@ -1,11 +1,13 @@
 \documentclass{NJUReport}
+\usepackage{algorithmic}
+\usepackage{algorithm}
 
 
 %设置封面内容
-\cproject{摸鱼学导论}
-\cname{NJU小橙}
-\cnum{002023001002}
-\ctime{2023年7月}
+\cproject{高级算法报告-动态规划中的各种背包问题}
+\cname{张继华}
+\cnum{522024320201}
+\ctime{2025年06月}
 
 
 \begin{document}
@@ -15,11 +17,16 @@
 	\setcounter{page}{1}
 	\pagenumbering{arabic}
 	\linespread{1.5}\selectfont
+
+	 % 添加目录
+    \newpage
+    \tableofcontents
+    \newpage
 	
 	%导入正文
 	\input{chapter/content}
 	
 	\newpage
-	%导入参考文献
-	\bibliography{refs}
+	% %导入参考文献
+	% \bibliography{refs}
 \end{document}
